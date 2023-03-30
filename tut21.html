@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alignment</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        body{
+            font-family: 'Ubuntu', sans-serif;
+        }
+
+        .container{
+            border: 4px solid purple;
+            width: 900px;
+            background-color: sandybrown;
+            margin: 33px auto;
+
+        }
+        .item {
+            border: 3px solid gray;
+            margin: 1px 6px;
+            padding: 12px 6px;
+            background: rgb(194, 187, 187);
+
+        }
+        #fruits {
+            float: right;
+            width: 54%;
+
+        
+        }
+        #computers {
+            float: left;
+            width: 48%;
+        }
+        #stationary{
+          /*  float: left; */
+         /* clear: both;*/
+            width: 100%;
+            clear: left;
+        }
+        p,h3{
+           /* text-allgn: left; */
+            text-align: justify;
+        }
+        h1{
+            margin: auto;
+            width: 455px;
+        }
+      
+       
+
+    </style>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    >
+    <div class="container">
+        <h1>welcome to my store</h1>
+        <div id="fruits" class="item">
+            <h3>fruits</h3>
+            <p id="fruitspara" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, exercitationem. Est tempora fugit officia, voluptate at fuga libero eligendi sint inventore quos ipsa ipsum, neque voluptatibus laudantium sunt distinctio mollitia aliquam alias aspernatur culpa.</p>
+        </div>
+
+        <div id="computer" class="item">
+            <h3>computer</h3>
+            <p id="fruitspara" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, exercitationem. Est tempora fugit officia, voluptate at fuga libero eligendi sint inventore quos ipsa ipsum, neque voluptatibus laudantium sunt distinctio mollitia aliquam alias aspernatur culpa.</p>
+        </div>
+
+        <div id="stationary" class="item">
+            <h3>stationary</h3>
+            <p id="fruitspara" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, exercitationem. Est tempora fugit officia, voluptate at fuga libero eligendi sint inventore quos ipsa ipsum, neque voluptatibus laudantium sunt distinctio mollitia aliquam alias aspernatur culpa.</p>
+        </div>
+        
+        <div id="stationary" class="item">
+            <h3>stationary</h3>
+            <p id="fruitspara" class="para">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis perspiciatis optio culpa atque! Similique consequuntur nam accusantium aspernatur quasi magni nostrum ducimus quibusdam.</p>
+        </div>
+    </div>
+    
+</body>
+</html>

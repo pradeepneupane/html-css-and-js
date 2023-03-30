@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box shadow and text shadow</title>
+    <style>
+        .container{
+            display: flex;
+        }
+        .card{
+           /* border: 2px solid red;*/
+            padding: 12px 21px;
+            margin: 12px 21px;
+            background-color: burlywood;
+           /* box-shadow: -5px -5px 10px rgba(71, 172, 172, 0.5);*/
+            /*box shddow: offcett x and offcet blur radius color*/
+            /*box-shadow: -5px -5px green;*/
+            box-shadow: inset 3px 5px green, 3px 5px red;
+
+
+         }
+         .card h2{
+           /*  text-shadow: 3px 4px white;*/
+             text-shadow: -3px -4px 6px white;
+         }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card" id="card-1">
+            <h2>This is c++ code</h2>
+            <p>this is c++ course which does not which is does not mean that we will stop this course. we will continue to course to completion. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae eum voluptate vitae harum tempora aspernatur numquam vel odio, velit nemo quibusdam nobis culpa sapiente explicabo cupiditate quasi omnis optio et eveniet dolorem necessitatibus repudiandae.</p>
+        </div>
+        <div class="card" id="card-2">
+           <h2> This is html course</h2>
+           <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed minus minima, dolorum fugit officia mollitia ipsum quis, velit quam veritatis omnis? Expedita a exercitationem quidem iure quos laudantium aspernatur officia dolorum accusantium? Natus, incidunt?</p>
+        </div>
+        <div class="card" id="card-3">
+           <h2> card3</h2>
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat laborum officiis enim molestiae ullam unde fugiat distinctio accusamus itaque, tenetur aspernatur in reprehenderit cumque nulla quasi sint recusandae maxime vitae harum repudiandae dignissimos quibusdam?</p>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More on selector</title>
+    <style>
+        h1{
+            color: black;
+            background-color: red;
+            text-align: center;
+        }
+        /*if p is contained by any li which is contained by div*/
+         /* if p is right inside div then this css will applied*/
+      /*  div > p{
+            background-color: green;
+            color: black;
+            font-weight: bold;
+        } */
+       /*if p is right after div i.e p is next sibling of div*/
+      /*  div+p{
+            color: white;
+            background-color: rgb(228, 138, 138);*/
+        } 
+    </style>
+</head>
+<body>
+    <h1>This is more selector</h1>
+    <div class="container">
+        <div class="row">
+            <ul>
+                <li class="item"> <p>This is a paragraph</p> </li>
+                <li>This is not affected</li>
+                <p>This is paragraph inside ul</p>
+            </ul>
+        </div>
+        <p>This is a paragraph</p>
+    </div>
+    <p>This is outermost paragraph</p>
+</body>
+</html>

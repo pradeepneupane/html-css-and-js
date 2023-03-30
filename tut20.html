@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>box model</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color: rgb(119, 5, 119);
+        }
+        .container{
+            /*background-color: burlywood;*/ 
+            border: 3px solid black;
+            background-color: burlywood;
+            /*we can set the margin and padding for top right bottom
+            padding-left: 80px;
+            padding-bottom: 80px;*/
+            padding: 23px 56px 6px 78px; /* top right bottom left */
+            padding: 34px 19px; /*padding y(top/bottom) x(left/right)*/ 
+            
+            margin:14px 19px;
+            /*
+            margin-top: 15;
+            margin-bottom: 20;
+            margin-left: 10;
+            margin-right: 11;
+            border-radius: 23px;
+            width: 533px;
+            */
+            
+
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+    <h3>This is my heading</h3>
+    <p id="first">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere ut dolor deleniti quibusdam nemo quisquam sit deserunt libero dolorem distinctio, repudiandae, corporis mollitia.</p>
+    </div>
+
+    <div class="container">
+    <h3>This is my heading</h3>
+    <p id="second">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere ut dolor deleniti quibusdam nemo quisquam sit deserunt libero dolorem distinctio, repudiandae, corporis mollitia.</p>
+    </div>
+
+    <div class="container">
+    <h3>This is my heading</h3>
+    <p id="third">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere ut dolor deleniti quibusdam nemo quisquam sit deserunt libero dolorem distinctio, repudiandae, corporis mollitia.</p>
+    </div>
+</body>
+</html>
